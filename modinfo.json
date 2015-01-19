@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "context": "server",
+    "identifier": "com.pa.darksteel_unit_pack",
+    "display_name": "Darksteel Unit Pack",
+    "build": "73939",
+    "date": "2014/10/28",
+    "description": "Adds fun new units to vanilla without changing the balance of the old untis. ALPHA VERSION",
+    "category": [
+        "in-game",
+        "server-mod"
+    ],
+    "author": "emraldis, mgmetal13",
+    "version": "ALPHA 0.100",
+    "signature": "(not yet implemented)",
+    "forum": "",
+    "icon": "",
+    "priority": 100,
+    "dependencies": [
+
+    ]
+}
