@@ -32,38 +32,6 @@
             "effect_scale": 0.8
         }
     },
-    "fx_offsets": [
-        {
-            "bone": "bone_rightMuzzle",
-            "filename": "/pa/effects/specs/fab_spray.pfx",
-            "offset": [
-                0,
-                0,
-                0
-            ],
-            "orientation": [
-                0,
-                0,
-                0
-            ],
-            "type": "build"
-        },
-        {
-            "bone": "bone_leftMuzzle",
-            "filename": "/pa/effects/specs/fab_spray.pfx",
-            "offset": [
-                0,
-                0,
-                0
-            ],
-            "orientation": [
-                0,
-                0,
-                0
-            ],
-            "type": "build"
-        }
-    ],
     "guard_layer": "WL_LandHorizontal",
     "max_health": 400,
     "model": {
@@ -109,7 +77,10 @@
     "tools": [
         {
             "aim_bone": "bone_turret",
-            "muzzle_bone": "bone_rightRecoil",
+            "muzzle_bone": [
+                "bone_rightRecoil",
+                "bone_leftRecoil"
+            ],
             "spec_id": "/pa/units/land/bot_spider_adv/bot_spider_adv_tool_weapon.json"
         }
     ],
