@@ -12,8 +12,8 @@
     },
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "build_metal_cost": 800,
-    "description": "!LOC(units:all_terrain_bot_can_crawl_almost_anywhere.message):All Terrain Bot: Can crawl almost anywhere.",
-    "display_name": "!LOC(units:recluse.message):Recluse",
+    "description": "Flanking unit, decent mobility, range and damage, low health.",
+    "display_name": "Widow",
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/fab"
