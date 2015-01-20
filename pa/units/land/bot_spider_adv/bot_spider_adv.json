@@ -41,11 +41,11 @@
         "walk_speed": 4.9
   },
     "navigation": {
-        "acceleration": 150,
-        "brake": 150,
+        "acceleration": 30,
+        "brake": 30,
         "dodge_multiplier": 1,
         "dodge_radius": 15,
-        "move_speed": 10,
+        "move_speed": 18,
         "turn_speed": 720,
         "type": "amphibious",
         "wobble_factor": 0.1,
@@ -62,7 +62,7 @@
                 {
                     "channel": "sight",
                     "layer": "surface_and_air",
-                    "radius": 100,
+                    "radius": 110,
                     "shape": "capsule"
                 }
             ]
@@ -86,6 +86,7 @@
         "UNITTYPE_Mobile",
         "UNITTYPE_Advanced",
         "UNITTYPE_Offense",
+		"UNITTYPE_FactoryBuild",
         "UNITTYPE_Land"
     ]
 }
